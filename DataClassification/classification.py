@@ -141,8 +141,8 @@ def handle_files(pdata, pexp_data):
 #------------------------------------------------------------------------------------------------------------------
 #   Procesamiento de archivos para su posterior clasificación
 #------------------------------------------------------------------------------------------------------------------
-data_files = ['nueva_prueba/acc_data.txt']
-trial_files = ['nueva_prueba/acc_trials.txt']
+data_files = ['nueva_nueva_prueba/acc_data1.txt', 'nueva_nueva_prueba/acc_data2.txt', 'nueva_nueva_prueba/acc_data3.txt']
+trial_files = ['nueva_nueva_prueba/acc_trials1.txt', 'nueva_nueva_prueba/acc_trials2.txt', 'nueva_nueva_prueba/acc_trials3.txt']
 
 # K-NN Initialization
 clf = Clasificador(KNeighborsClassifier(n_neighbors=3))
